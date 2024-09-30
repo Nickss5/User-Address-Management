@@ -9,7 +9,7 @@ const UserList = () => {
     const fetchUsers = async () => {
         setLoading(true);  // Set loading to true before fetching data
         try {
-            const response = await fetch('http://localhost:3000/users');
+            const response = await fetch('https://user-address-backend1.onrender.com/users');
             const data = await response.json();
             setUsers(data);  // Set users data after fetching
         } catch (error) {

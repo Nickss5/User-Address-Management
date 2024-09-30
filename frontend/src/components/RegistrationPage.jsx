@@ -11,7 +11,7 @@ const Registration = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (name && address) {
-      await fetch('http://localhost:3000/register', {
+      await fetch('https://user-address-backend1.onrender.com/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
