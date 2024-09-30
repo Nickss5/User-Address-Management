@@ -4,6 +4,10 @@
 
 This project is a User Address Management application where users can register their names and store their addresses. The application is built using React for the frontend and Node.js with MongoDB for the backend. It is deployed on Render.
 
+![Registration Page](https://github.com/Nickss5/User-Address-Management/blob/main/smoketrees1.png)
+![Users Page](https://github.com/Nickss5/User-Address-Management/blob/main/smoketrees2.png)
+
+
 ### Features
 
 - User registration form to collect names and addresses.
