@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 //middlewares
 app.use(cors({
-    origin: 'https://user-address-frontend1.onrender.com', // Replace with your frontend URL
+    origin: 'https://user-address-fullstack.onrender.com', // Replace with your frontend URL
     methods: ['GET', 'POST'], // Allowed methods
 }));
 app.use(bodyParser.json());
